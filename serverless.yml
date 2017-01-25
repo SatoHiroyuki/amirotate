@@ -24,8 +24,8 @@ functions:
   create:
     handler: create.default
     events:
-    - schedule: cron(0 0 ? * * *)
+    - schedule: cron(0 19 ? * * *)
   delete:
     handler: delete.default
     events:
-    - schedule: cron(0 1 ? * * *)
+    - schedule: cron(0 20 ? * * *)
